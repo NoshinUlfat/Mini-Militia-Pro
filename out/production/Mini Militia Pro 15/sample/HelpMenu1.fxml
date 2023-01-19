@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="2000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="1000.0" fitWidth="2000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Background%20image/HelpMenu.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="1000.0" prefWidth="2000.0">
+         <children>
+            <Label layoutX="697.0" layoutY="180.0" prefHeight="78.0" prefWidth="345.0" text="Instruction" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="271.0" prefHeight="54.0" prefWidth="415.0" text="Right arrow--&gt;Right move" textFill="#fcfcfc">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="325.0" prefHeight="54.0" prefWidth="383.0" text="Left arrow--&gt;Left move" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="379.0" prefHeight="54.0" prefWidth="306.0" text="Up Arrow--&gt;Up move" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="439.0" prefHeight="47.0" prefWidth="372.0" text="Down Arrow--&gt;Down move" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="486.0" prefHeight="47.0" prefWidth="306.0" text="S--&gt;Shielded" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="527.0" prefHeight="54.0" prefWidth="263.0" text="N--&gt;Unshielded" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="697.0" layoutY="581.0" prefHeight="37.0" prefWidth="229.0" text="D--&gt;Shoot" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="1570.0" layoutY="637.0" mnemonicParsing="false" onAction="#backToExtra" prefHeight="67.0" prefWidth="154.0" style="-fx-background-color: linear-gradient(#221a72,#B2AED0,#221a72); -fx-border-color: #fcfcfc; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 5;" text="Back" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="697.0" layoutY="619.0" prefHeight="37.0" prefWidth="229.0" text="R--&gt;Reload" textFill="#fcfcfc">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

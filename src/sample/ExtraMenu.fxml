@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@ExtraMenu.css">
+         <children>
+            <ImageView fitHeight="1037.0" fitWidth="1776.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Background%20image/ExtraMenu.jpg" />
+               </image>
+            </ImageView>
+            <Button layoutX="1295.0" layoutY="241.0" mnemonicParsing="false" onAction="#helpPressed" prefHeight="92.0" prefWidth="281.0" text="Help" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#92deff" />
+               </effect>
+            </Button>
+            <Button layoutX="1295.0" layoutY="386.0" mnemonicParsing="false" onAction="#creditMenuPressed" prefHeight="92.0" prefWidth="281.0" text="Credit" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#eb2aeb" />
+               </effect>
+            </Button>
+            <Button layoutX="1295.0" layoutY="529.0" mnemonicParsing="false" onAction="#hsMenuPressed" prefHeight="92.0" prefWidth="281.0" text="High Score" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#34aad1" />
+               </effect>
+            </Button>
+            <Button layoutX="1295.0" layoutY="671.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="92.0" prefWidth="281.0" text="Back" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#ce1fff" />
+               </effect>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow color="#33b6ee" />
+         </effect>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fitHeight="1079.0" fitWidth="2026.0" layoutX="43.0" layoutY="76.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Background%20image/ContributorMenu.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="229.0" layoutY="162.0" text="Supervisor" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="297.0" fitWidth="322.0" layoutX="236.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Contributor/Advisor.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="236.0" layoutY="529.0" text="Md. Tarikul Islam Papon" textFill="#0b0625">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="605.0" prefHeight="77.0" prefWidth="720.0" text="Department  of Compyter Science &amp;" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="682.0" text="Engineering" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="746.0" prefHeight="58.0" prefWidth="798.0" text="Bangladesh University of  Engineering" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="804.0" prefHeight="77.0" prefWidth="720.0" text="&amp; Technology,Bangladesh" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="1111.0" layoutY="177.0" text="Developer" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="1111.0" layoutY="471.0" text="Fahmid Al Rifat" textFill="#0b0625">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="195.0" fitWidth="248.0" layoutX="1111.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Contributor/fahmid.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="1114.0" layoutY="534.0" text="Student ID:1705087" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="1113.0" layoutY="581.0" text="Level:1 Term:2" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="195.0" fitWidth="248.0" layoutX="1117.0" layoutY="637.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/Contributor/Noshin.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="1113.0" layoutY="852.0" text="Noshin Ulfat" textFill="#170101">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="1114.0" layoutY="922.0" text="Student ID:1705089" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="1113.0" layoutY="970.0" text="Level:1 Term:2" textFill="#16065e">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="29.0" />
+               </font>
+            </Label>
+            <Button layoutX="250.0" layoutY="994.0" mnemonicParsing="false" onAction="#backToMain" opacity="0.61" prefHeight="83.0" prefWidth="396.0" style="-fx-background-radius: 20; -fx-border-radius: 20;" text="BACK" textOverrun="CLIP">
+               <font>
+                  <Font name="Arial" size="27.0" />
+               </font>
+               <effect>
+                  <DropShadow color="#3c7dff" />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

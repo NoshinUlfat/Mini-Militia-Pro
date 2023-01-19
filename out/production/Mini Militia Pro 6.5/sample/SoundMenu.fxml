@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RunGame">
+    <children>
+        <ImageView fitHeight="1071.0" fitWidth="1996.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Images/Background%20image/SoundMenu.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" stylesheets="@SoundMenu.css">
+            <children>
+                <Button fx:id="btn_play" layoutX="1465.0" layoutY="291.0" mnemonicParsing="false" onAction="#btn_playPressed" prefHeight="52.0" prefWidth="139.0" text="ON" />
+                <Button fx:id="btn_stop" layoutX="1465.0" layoutY="384.0" mnemonicParsing="false" onAction="#btn_stopPressed" prefHeight="52.0" prefWidth="139.0" text="OFF" />
+                <Button fx:id="btn_vol_up" layoutX="1473.0" layoutY="479.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="162.0" text="HIGH" />
+                <Button fx:id="btn_vol_down" layoutX="1660.0" layoutY="478.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="162.0" text="LOW" />
+                <Label layoutX="1218.0" layoutY="260.0" prefHeight="95.0" prefWidth="207.0" text="MUSIC:" textAlignment="RIGHT" textFill="#fcfcfc">
+                    <font>
+                        <Font name="Lucida Handwriting Italic" size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="1218.0" layoutY="362.0" prefHeight="95.0" prefWidth="207.0" text="SFX:" textAlignment="RIGHT" textFill="#fcfcfc">
+                    <font>
+                        <Font name="Lucida Handwriting Italic" size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="1218.0" layoutY="457.0" prefHeight="95.0" prefWidth="241.0" text="VOLUME:" textAlignment="RIGHT" textFill="#fcfcfc">
+                    <font>
+                        <Font name="Lucida Handwriting Italic" size="48.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fitHeight="1074.0" fitWidth="1946.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Images/Map/First%20Map/Obstacles/drawn-cavern-2d-game-background-521188-3852319.jpg" />
+            </image>
+        </ImageView>
+        <AnchorPane prefHeight="1000.0" prefWidth="2000.0">
+            <children>
+                <ImageView fitHeight="171.0" fitWidth="310.0" layoutY="861.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/zg.kjwp.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="91.0" fitWidth="186.0" layoutX="681.0" layoutY="914.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="80.0" fitWidth="148.0" layoutX="961.0" layoutY="952.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="91.0" fitWidth="185.0" layoutX="1266.0" layoutY="928.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1088.0" layoutY="872.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/zg.kjwp.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="151.0" fitWidth="243.0" layoutX="255.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="642.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="842.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(5).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="151.0" fitWidth="76.0" layoutX="809.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/7.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="171.0" fitWidth="92.0" layoutX="773.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/6.png%20(1).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="196.0" fitWidth="92.0" layoutX="809.0" layoutY="476.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/6.png%20(1).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="49.0" fitWidth="217.0" layoutX="418.0" layoutY="946.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView layoutX="457.0" layoutY="970.0">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="80.0" fitWidth="187.0" layoutX="575.0" layoutY="965.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView layoutX="546.0" layoutY="989.0">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="102.0" fitWidth="200.0" layoutX="327.0" layoutY="944.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(1).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="91.0" fitWidth="243.0" layoutX="961.0" layoutY="724.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(5).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="80.0" fitWidth="161.0" layoutX="-8.0" layoutY="700.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="171.0" fitWidth="293.0" layoutX="1616.0" layoutY="526.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="794.0" layoutY="847.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(4).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1628.0" layoutY="909.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/obstacle1.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="209.0" fitWidth="187.0" layoutX="1460.0" layoutY="764.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(3).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="102.0" fitWidth="200.0" layoutX="1434.0" layoutY="584.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(4).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="113.0" fitWidth="205.0" layoutX="1288.0" layoutY="661.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(5).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="102.0" fitWidth="237.0" layoutX="485.0" layoutY="589.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(5).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="386.0" layoutY="832.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="72.0" fitWidth="255.0" layoutX="484.0" layoutY="868.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/4-1024_3712%20(2).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="124.0" fitWidth="284.0" layoutX="1520.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(4).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="137.0" fitWidth="229.0" layoutX="1313.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(4).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="91.0" fitWidth="243.0" layoutX="853.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(5).png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="939.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/obstacle1.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/obstacle1.png" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="137.0" fitWidth="161.0" layoutX="1049.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/Map/First%20Map/Obstacles/dark%20fantasy%20720x320%20(3).png" />
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

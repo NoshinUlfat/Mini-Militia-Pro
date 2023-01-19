@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="990.0" fitWidth="1910.0" opacity="0.86" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Background%20image/RoomMenu.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label layoutX="157.0" layoutY="91.0" prefHeight="103.0" prefWidth="234.0" text="Room" textAlignment="CENTER" textFill="#f2eded">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="64.0" />
+               </font>
+            </Label>
+            <Button layoutX="157.0" layoutY="225.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="210.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient( #133652,#2995EB,#1256E4  ); -fx-border-color: #fcfcfc; -fx-border-radius: 10; -fx-border-width: 5;" text="Create" textFill="#fcfcfc">
+               <font>
+                  <Font name="ItalicT" size="36.0" />
+               </font>
+            </Button>
+            <Button layoutX="391.0" layoutY="225.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="210.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient( #133652,#2995EB,#1256E4  ); -fx-border-color: #fcfcfc; -fx-border-radius: 10; -fx-border-width: 5;" text="Join" textFill="#fcfcfc">
+               <font>
+                  <Font name="ItalicT" size="36.0" />
+               </font>
+            </Button>
+            <Label layoutX="157.0" layoutY="334.0" prefHeight="66.0" prefWidth="267.0" text="Room Name:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <TextField layoutX="435.0" layoutY="345.0" prefHeight="40.0" prefWidth="194.0">
+               <font>
+                  <Font name="ItalicT" size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="157.0" layoutY="429.0" text="Player Name:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <ListView layoutX="157.0" layoutY="495.0" prefHeight="419.0" prefWidth="253.0">
+               <effect>
+                  <DropShadow color="#43cfe4" height="93.29" radius="48.477500000000006" width="102.62">
+                     <input>
+                        <Lighting>
+                           <bumpInput>
+                              <Shadow />
+                           </bumpInput>
+                           <light>
+                              <Light.Distant />
+                           </light>
+                        </Lighting>
+                     </input>
+                  </DropShadow>
+               </effect>
+            </ListView>
+            <Label layoutX="955.0" layoutY="85.0" text="Location:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="966.0" layoutY="647.0" text="Place Choice:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="1322.0" layoutY="656.0" prefHeight="40.0" prefWidth="244.0" promptText="THUNDER REGION" />
+            <Label layoutX="966.0" layoutY="720.0" text="Match Duration:" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="36.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="1322.0" layoutY="729.0" prefHeight="40.0" prefWidth="244.0" promptText="6 MIN" />
+            <Button layoutX="968.0" layoutY="800.0" mnemonicParsing="false" onAction="#firstMapPressed" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(#F33019, #F37F19,#F33019 ); -fx-border-radius: 10; -fx-border-color: #fcfcfc; -fx-border-width: 5;" text="Ready" textFill="#fcfcfc">
+               <font>
+                  <Font name="ItalicT" size="36.0" />
+               </font>
+            </Button>
+            <Button layoutX="1234.0" layoutY="796.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="87.0" prefWidth="225.0" style="-fx-background-radius: 10; -fx-background-color: linear-gradient(#F33019, #F37F19,#F33019 ); -fx-border-radius: 10; -fx-border-color: #fcfcfc; -fx-border-width: 5;" text="Back " textFill="#fcfcfc">
+               <font>
+                  <Font name="ItalicT" size="36.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="376.0" fitWidth="410.0" layoutX="953.0" layoutY="169.0">
+               <image>
+                  <Image url="@../Images/Map/bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="376.0" fitWidth="410.0" layoutX="1363.0" layoutY="169.0" onDragDetected="#image1Pressed">
+               <image>
+                  <Image url="@../Images/Background%20image/bg2.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="955.0" layoutY="575.0" mnemonicParsing="false" onAction="#image1Pressed" prefHeight="58.0" prefWidth="119.0" style="-fx-background-color: linear-gradient(#111E70,#5A6194,#111E70); -fx-border-radius: 10; -fx-border-color: #fcfcfc; -fx-background-radius: 10; -fx-border-width: 5;" text="Map1" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font></Button>
+            <Button layoutX="1363.0" layoutY="575.0" mnemonicParsing="false" onAction="#image2Pressed" prefHeight="58.0" prefWidth="119.0" style="-fx-background-color: linear-gradient(#111E70,#5A6194,#111E70); -fx-border-radius: 10; -fx-border-color: #fcfcfc; -fx-background-radius: 10; -fx-border-width: 5;" text="Map2" textFill="#fcfcfc">
+               <font>
+                  <Font name="Lucida Handwriting Italic" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

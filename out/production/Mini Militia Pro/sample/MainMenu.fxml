@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="990.0" prefWidth="1910.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane prefHeight="531.0" prefWidth="670.0" />
+        <ImageView fitHeight="990.0" fitWidth="1839.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Background%20image/lightRED.gif" />
+         </image>
+        </ImageView>
+        <AnchorPane opacity="0.91" prefHeight="200.0" prefWidth="200.0" stylesheets="@MainMenu.css">
+            <children>
+                <Button fx:id="roomButton" depthTest="DISABLE" layoutX="159.0" layoutY="287.0" mnemonicParsing="false" onAction="#playPressed" prefHeight="104.0" prefWidth="315.0" text="Play" textFill="#e5e4f5">
+                    <font>
+                        <Font name="ItalicT" size="31.0" />
+                    </font>
+                </Button>
+            <Button fx:id="extraButton" layoutX="159.0" layoutY="443.0" mnemonicParsing="false" onAction="#extraPressed" prefHeight="104.0" prefWidth="315.0" text="Extra" textFill="#e5e4f5">
+               <font>
+                  <Font name="ItalicT" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="settingButton" layoutX="159.0" layoutY="598.0" mnemonicParsing="false" onAction="#settingPressed" prefHeight="104.0" prefWidth="315.0" text="Settings" textFill="#e5e4f5">
+               <font>
+                  <Font name="ItalicT" size="31.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitButton" layoutX="159.0" layoutY="745.0" mnemonicParsing="false" onAction="#exitPressed" prefHeight="104.0" prefWidth="315.0" text="Exit" textFill="#e5e4f5">
+               <font>
+                  <Font name="ItalicT" size="31.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>
